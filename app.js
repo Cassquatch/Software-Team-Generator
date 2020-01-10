@@ -1,9 +1,7 @@
-const manage = require("./lib/getManager");
+const team = require("./lib/buildTeam");
 
 
-let manager =  manage.getManager();
-
-console.log(manager);
+team.buildTeam();
 
 //look into just making an overarching buildTeam() function that just calls all functions together and builds everything here.
 
